@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Define a CSS class with the specified font-family */
+    .fraunces-font {
+      font-family: "Fraunces", serif;
+      font-optical-sizing: auto;
+      font-weight: 400; /* You can adjust the weight as needed */
+      font-style: normal;
+      font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+    }
+
+    .calistoga-regular {
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+
+    .exp{visibility: hidden;}
+
+  </style>
+</head>
+<body class="bg-gray-200">
+
+    <div class="bg-cover bg-center flex justify-center items-center" style="background-image: url('bg2.jpg'); height: 900px;">
+        <div class="card_category"> 
+            <img src="bitter.png" class="justify-center w-90 h-90 " alt="Heart icon">
+            <div class="card_text flex">
+                <div class="category_title font-bold text-7xl md:text-7xl lg:text-7xl xl:text-7xl text-white  calistoga-regular text-center">Happy Valentine's Day!</div>    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="card border rounded-lg p-5 mt-5 mr-5 ml-5 " style="background-color: #F35E8C;">
+        
+        <div class="card_category"> 
+            <div class="card_text flex ">
+                <div class="category_imag w-2/6 flex items-center flex-col">
+                    <img class="fill-current inline-block  object-obtain rounded-full w-30 md:w-48 lg:w-80" src="pic3.png" alt=""/>
+                </div>
+                <div class="contentextrat w-4/6 mr-2">
+                    <div class="category_title font-bold text-4xl md:text-4xl lg:text-4xl xl:text-4xl text-white leading-tight mt-2  calistoga-regular">I forgot to tell you...</div>
+                        <div class="extratext text-white text-justify text-sm md:text-2lg lg:text-xl xl:text-1xl"> <br>THANK YOU for asking me to be your Valentine. Kaya I hope you don't feel bad or something. Baka maging bitter ka na sa Valentines ha. Gaya nung alak na nagpalasing sa'yo HAHAH dejk. Ok lang walang Valentine, atleast nakatipid tayo XD Salamat ulit! :><br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+<div class="card border rounded-lg p-5 mt-5 mr-5 ml-5 ">
+        
+    <div class="card_category"> 
+        <div class="card_text flex ">
+            
+            <div class="contentextrat w-4/6 mr-2">
+                <div class="category_title font-bold text-5xl md:text-5xl lg:text-6xl xl:text-6xl text-rose-500 leading-tight mt-2 calistoga-regular">Peace Be With You...</div>
+                    <div class="extratext text-rose-500 text-justify text-sm md:text-2lg lg:text-xl xl:text-1xl"> Will you accept my peace offering? <br>
+                        <button type="button" onclick="unhide()" id= "btn1" class="text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Oo</button>
+                        <button type="button" onclick="unhide()" id= "btn2" class="text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Oo</button>
+                </div>
+                <div class="exp category_title font-bold text-5xl md:text-5xl lg:text-6xl xl:text-6xl text-rose-500 leading-tight mt-2 calistoga-regular">Aba, dapat lang! :p</div>
+            </div>
+            <div class="category_imag w-2/6 flex items-center flex-col">
+                <img class="fill-current inline-block  object-obtain w-99 h-99" src="kape.png" alt=""/>
+                
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function unhide() {
+    var hid = document.getElementsByClassName("exp");
+    
+    if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
+        hid[0].style.visibility = "visible";
+    }
+}
+</script>
+    
+    
+    
+</body>
+</html>
